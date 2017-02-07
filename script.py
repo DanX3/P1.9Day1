@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as pl
 
-xval = np.linspace(-5, 5, 100)
+xval = np.linspace(-3, 3, 100)
 print "Usage:"
 print "1 - y = x"
 print "2 - y = sin(x)"
