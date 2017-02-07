@@ -2,10 +2,15 @@ import numpy as np
 import matplotlib.pyplot as pl
 
 xval = np.linspace(-5, 5, 100)
-    
+choice = input();
 
-yval = xval**2 + 1
+if choice == 1:
+    f = lambda x: x
+if choice == 2:
+    f = lambda x: x**2 + 1
 
-pl.plot(xval, yval)
+yval = f(xval)
+
+pl.plot(xval, f(xval))
 pl.show()
 
