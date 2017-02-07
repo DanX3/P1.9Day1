@@ -2,6 +2,11 @@ import numpy as np
 import matplotlib.pyplot as pl
 
 xval = np.linspace(-5, 5, 100)
+print "Usage:"
+print "1 - y = x"
+print "2 - y = sin(x)"
+print "3 - y = cos(x)"
+print "4 - y = tan(x)"
 choice = input();
 
 if choice == 1:
